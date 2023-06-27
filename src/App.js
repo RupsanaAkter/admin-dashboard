@@ -6,6 +6,7 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import Dashboard from "./scenes/Dashboard/Dashboard";
 import Sidebar from "./scenes/Global/Sidebar";
+import Topbar from "./scenes/Global/Topbar";
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <div className="app">
           <Sidebar isSidebar={isSidebar} />
           <main className="content">
-            {/* <Topbar setIsSidebar={setIsSidebar} /> */}
+            <Topbar setIsSidebar={setIsSidebar} />
             <Routes>
               <Route path="/" element={<Dashboard />} />
               {/* <Route path="/team" element={<Team />} />
