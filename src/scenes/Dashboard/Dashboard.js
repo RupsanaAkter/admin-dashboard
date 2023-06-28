@@ -12,6 +12,7 @@ import ProgressCircle from '../../components/ProgressCircle/ProgressCircle';
 import StateBox from '../../components/StateBox/StateBox';
 import LineChart from '../../components/LineChart/LineChart';
 import BarChart from '../../components/BarChart/BarChart';
+import GeographyChart from '../../components/GeograpyChart/GeographyChart';
 const Dashboard = () => {
     const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -271,7 +272,7 @@ const Dashboard = () => {
               Geography Based Traffic
             </Typography>
             <Box height="200px">
-              {/* <GeographyChart isDashboard={true} /> */}
+              <GeographyChart isDashboard={true} />
             </Box>
           </Box>
         </Box>
