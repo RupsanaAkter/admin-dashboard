@@ -11,6 +11,7 @@ import Header from '../../components/Header/Header';
 import ProgressCircle from '../../components/ProgressCircle/ProgressCircle';
 import StateBox from '../../components/StateBox/StateBox';
 import LineChart from '../../components/LineChart/LineChart';
+import BarChart from '../../components/BarChart/BarChart';
 const Dashboard = () => {
     const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -253,7 +254,7 @@ const Dashboard = () => {
               Sales Quantity
             </Typography>
             <Box height="250px" mt="-20px">
-              {/* <BarChart isDashboard={true} /> */}
+              <BarChart isDashboard={true} />
             </Box>
           </Box>
           <Box
