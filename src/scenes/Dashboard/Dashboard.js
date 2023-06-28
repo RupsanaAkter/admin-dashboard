@@ -7,6 +7,7 @@ import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
 // import PersonAddIcon from "@mui/icons-material/PersonAdd";
 // import TrafficIcon from "@mui/icons-material/Traffic";
 import {mockTransactions} from '../../data/Mockdata'
+import Header from '../../components/Header/Header';
 const Dashboard = () => {
     const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -14,7 +15,7 @@ const Dashboard = () => {
         <Box m="20px">
         {/* HEADER */}
         <Box display="flex" justifyContent="space-between" alignItems="center">
-          {/* <Header title="DASHBOARD" subtitle="Welcome to your dashboard" /> */}
+          <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
   
           <Box>
             <Button
