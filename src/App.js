@@ -8,6 +8,7 @@ import Dashboard from "./scenes/Dashboard/Dashboard";
 import Sidebar from "./scenes/Global/Sidebar";
 import Topbar from "./scenes/Global/Topbar";
 import Team from "./scenes/Team/Team";
+import Contacts from "./scenes/Contacts/Contacts";
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
                <Route path="/team" element={<Team />} /> 
-              {/* <Route path="/contacts" element={<Contacts />} /> */}
+              <Route path="/contacts" element={<Contacts />} />
               {/* <Route path="/invoices" element={<Invoices />} /> */}
               {/* <Route path="/form" element={<Form />} /> */}
               {/* <Route path="/bar" element={<Bar />} /> */}
