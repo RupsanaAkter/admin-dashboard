@@ -10,6 +10,7 @@ import {mockTransactions} from '../../data/Mockdata'
 import Header from '../../components/Header/Header';
 import ProgressCircle from '../../components/ProgressCircle/ProgressCircle';
 import StateBox from '../../components/StateBox/StateBox';
+import LineChart from '../../components/LineChart/LineChart';
 const Dashboard = () => {
     const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -158,7 +159,7 @@ const Dashboard = () => {
               </Box>
             </Box>
             <Box height="250px" m="-20px 0 0 0">
-              {/* <LineChart isDashboard={true} /> */}
+              <LineChart isDashboard={true} />
             </Box>
           </Box>
           <Box
