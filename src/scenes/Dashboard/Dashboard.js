@@ -8,6 +8,7 @@ import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
 // import TrafficIcon from "@mui/icons-material/Traffic";
 import {mockTransactions} from '../../data/Mockdata'
 import Header from '../../components/Header/Header';
+import ProgressCircle from '../../components/ProgressCircle/ProgressCircle';
 const Dashboard = () => {
     const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -226,7 +227,7 @@ const Dashboard = () => {
               alignItems="center"
               mt="25px"
             >
-              {/* <ProgressCircle size="125" /> */}
+              <ProgressCircle size="125" />
               <Typography
                 variant="h5"
                 color={colors.greenAccent[500]}
