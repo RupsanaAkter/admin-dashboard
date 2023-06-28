@@ -2,13 +2,14 @@ import { Box, Button, IconButton, Typography, useTheme } from '@mui/material';
 import React from 'react';
 import { tokens } from '../../theme';
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
-// import EmailIcon from "@mui/icons-material/Email";
-// import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
-// import PersonAddIcon from "@mui/icons-material/PersonAdd";
-// import TrafficIcon from "@mui/icons-material/Traffic";
+import EmailIcon from "@mui/icons-material/Email";
+import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
+import PersonAddIcon from "@mui/icons-material/PersonAdd";
+import TrafficIcon from "@mui/icons-material/Traffic";
 import {mockTransactions} from '../../data/Mockdata'
 import Header from '../../components/Header/Header';
 import ProgressCircle from '../../components/ProgressCircle/ProgressCircle';
+import StateBox from '../../components/StateBox/StateBox';
 const Dashboard = () => {
     const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -49,7 +50,7 @@ const Dashboard = () => {
             alignItems="center"
             justifyContent="center"
           >
-            {/* <StatBox
+            <StateBox
               title="12,361"
               subtitle="Emails Sent"
               progress="0.75"
@@ -59,7 +60,7 @@ const Dashboard = () => {
                   sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
                 />
               }
-            /> */}
+            />
           </Box>
           <Box
             gridColumn="span 3"
@@ -68,7 +69,7 @@ const Dashboard = () => {
             alignItems="center"
             justifyContent="center"
           >
-            {/* <StatBox
+            <StateBox
               title="431,225"
               subtitle="Sales Obtained"
               progress="0.50"
@@ -78,7 +79,7 @@ const Dashboard = () => {
                   sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
                 />
               }
-            /> */}
+            />
           </Box>
           <Box
             gridColumn="span 3"
@@ -87,7 +88,7 @@ const Dashboard = () => {
             alignItems="center"
             justifyContent="center"
           >
-            {/* <StatBox
+            <StateBox
               title="32,441"
               subtitle="New Clients"
               progress="0.30"
@@ -97,7 +98,7 @@ const Dashboard = () => {
                   sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
                 />
               }
-            /> */}
+            />
           </Box>
           <Box
             gridColumn="span 3"
@@ -106,7 +107,7 @@ const Dashboard = () => {
             alignItems="center"
             justifyContent="center"
           >
-            {/* <StatBox
+            <StateBox
               title="1,325,134"
               subtitle="Traffic Received"
               progress="0.80"
@@ -116,7 +117,7 @@ const Dashboard = () => {
                   sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
                 />
               }
-            /> */}
+            />
           </Box>
   
           {/* ROW 2 */}
