@@ -9,6 +9,7 @@ import Sidebar from "./scenes/Global/Sidebar";
 import Topbar from "./scenes/Global/Topbar";
 import Team from "./scenes/Team/Team";
 import Contacts from "./scenes/Contacts/Contacts";
+import Invoices from "./scenes/Invoices/Invoices";
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
               <Route path="/" element={<Dashboard />} />
                <Route path="/team" element={<Team />} /> 
               <Route path="/contacts" element={<Contacts />} />
-              {/* <Route path="/invoices" element={<Invoices />} /> */}
+              <Route path="/invoices" element={<Invoices />} />
               {/* <Route path="/form" element={<Form />} /> */}
               {/* <Route path="/bar" element={<Bar />} /> */}
               {/* <Route path="/pie" element={<Pie />} /> */}
