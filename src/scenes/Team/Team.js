@@ -12,7 +12,7 @@ const Team = () => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
     const columns = [
-      { field: "id", headerName: "ID" },
+      { field: "id", headerName: "PassengerId" },
       {
         field: "name",
         headerName: "Name",
@@ -27,15 +27,26 @@ const Team = () => {
         align: "left",
       },
       {
-        field: "phone",
-        headerName: "Phone Number",
+        field: "ticket",
+        headerName: "Ticket",
         flex: 1,
       },
       {
-        field: "email",
-        headerName: "Email",
+        field: "sex",
+        headerName: "Sex",
         flex: 1,
       },
+      {
+        field: "fare",
+        headerName: "Fare",
+        flex: 1,
+      },
+      {
+        field: "embarked",
+        headerName: "Embarked",
+        flex: 1,
+      },
+     
       {
         field: "accessLevel",
         headerName: "Access Level",
@@ -100,7 +111,7 @@ const Team = () => {
             },
           }}
         >
-          <DataGrid checkboxSelection rows={mockDataTeam} columns={columns} />
+          <DataGrid  rows={mockDataTeam} columns={columns} />
         </Box>
       </Box>
     );
