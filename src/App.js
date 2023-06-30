@@ -14,6 +14,7 @@ import Line from "./scenes/Line/Line";
 import FAQ from "./scenes/FAQ/FAQ";
 import Form from "./scenes/Form/Form";
 import Calendar from "./scenes/Calendar/Calendar";
+import Pie from "./scenes/Pie/Pie";
 function App() {
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);
@@ -33,10 +34,10 @@ function App() {
               <Route path="/invoices" element={<Invoices />} />
               <Route path="/form" element={<Form />} />
               <Route path="/bar" element={<Bar />} />
-              {/* <Route path="/pie" element={<Pie />} /> */}
+              <Route path="/pie" element={<Pie />} />
               <Route path="/line" element={<Line />} />
               <Route path="/faq" element={<FAQ />} />
-              <Route path="/calendar" element={<Calendar/>} />
+              
               {/* <Route path="/geography" element={<Geography />} /> */}
             </Routes>
           </main>
