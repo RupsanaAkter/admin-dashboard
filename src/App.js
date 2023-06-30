@@ -9,6 +9,7 @@ import Dashboard from "./scenes/Dashboard/Dashboard";
 import Team from './scenes/Team/Team';
 import Contacts from './scenes/Contacts/Contacts';
 import Invoices from './scenes/Invoices/Invoices';
+import Bar from "./scenes/Bar/Bar";
 function App() {
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);
@@ -27,7 +28,7 @@ function App() {
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
               {/* <Route path="/form" element={<Form />} /> */}
-              {/* <Route path="/bar" element={<Bar />} /> */}
+              <Route path="/bar" element={<Bar />} />
               {/* <Route path="/pie" element={<Pie />} /> */}
               {/* <Route path="/line" element={<Line />} /> */}
               {/* <Route path="/faq" element={<FAQ />} /> */}
