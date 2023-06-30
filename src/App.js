@@ -15,6 +15,7 @@ import FAQ from "./scenes/FAQ/FAQ";
 import Form from "./scenes/Form/Form";
 import Calendar from "./scenes/Calendar/Calendar";
 import Pie from "./scenes/Pie/Pie";
+import GeographyChart from "./components/GeograpyChart/GeographyChart";
 function App() {
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);
@@ -38,7 +39,7 @@ function App() {
               <Route path="/line" element={<Line />} />
               <Route path="/faq" element={<FAQ />} />
               
-              {/* <Route path="/geography" element={<Geography />} /> */}
+              <Route path="/geography" element={<GeographyChart />} />
             </Routes>
           </main>
         </div>
