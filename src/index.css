@@ -33,3 +33,14 @@ body,
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.SideMenu{
+  height: 100%;
+  background: #141B2D;
+  color: #e0e0e0;
+}
+.SideMenuVertical{
+  height: 100%;
+  background: #141B2D;
+  color: #e0e0e0;
+}

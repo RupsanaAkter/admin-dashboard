@@ -145,21 +145,7 @@ export const themeSettings = (mode) => {
             },
           }
         : {
-            // palette values for light mode
-            primary: {
-              main: colors.primary[100],
-            },
-            secondary: {
-              main: colors.greenAccent[500],
-            },
-            neutral: {
-              dark: colors.grey[700],
-              main: colors.grey[500],
-              light: colors.grey[100],
-            },
-            background: {
-              default: "#fcfcfc",
-            },
+            
           }),
     },
     typography: {
@@ -195,7 +181,7 @@ export const themeSettings = (mode) => {
 
 // context for color mode
 export const ColorModeContext = createContext({
-  toggleColorMode: () => {},
+  
 });
 
 export const useMode = () => {
@@ -203,8 +189,7 @@ export const useMode = () => {
 
   const colorMode = useMemo(
     () => ({
-      toggleColorMode: () =>
-        setMode((prev) => (prev === "light" ? "dark" : "light")),
+      
     }),
     []
   );
