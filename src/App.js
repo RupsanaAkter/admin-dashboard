@@ -13,7 +13,7 @@ import Bar from "./scenes/Bar/Bar";
 import Line from "./scenes/Line/Line";
 import FAQ from "./scenes/FAQ/FAQ";
 import Form from "./scenes/Form/Form";
-import Calendar from "./scenes/Calendar/Calendar";
+
 import Pie from "./scenes/Pie/Pie";
 import GeographyChart from "./components/GeograpyChart/GeographyChart";
 function App() {
