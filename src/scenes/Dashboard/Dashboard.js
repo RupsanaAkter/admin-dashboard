@@ -6,7 +6,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
-import {mockTransactions} from '../../data/Mockdata'
+import {mockTransactions} from '../../data/TitanicData'
 import Header from '../../components/Header/Header';
 import ProgressCircle from '../../components/ProgressCircle/ProgressCircle';
 import StateBox from '../../components/StateBox/StateBox';

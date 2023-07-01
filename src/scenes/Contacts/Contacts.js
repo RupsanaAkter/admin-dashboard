@@ -1,5 +1,5 @@
 import { DataGrid,GridToolbar } from '@mui/x-data-grid';
-import {mockDataContacts} from '../../data/Mockdata'
+import {mockDataContacts} from '../../data/TitanicData'
 import React from 'react';
 import { useTheme } from '@emotion/react';
 import { tokens } from '../../theme';

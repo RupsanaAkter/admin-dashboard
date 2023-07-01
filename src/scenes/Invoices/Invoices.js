@@ -1,5 +1,5 @@
 import React from 'react';
-import {mockDataInvoices} from '../../data/Mockdata'
+import {mockDataInvoices} from '../../data/TitanicData'
 import { useTheme } from '@emotion/react';
 import { tokens } from '../../theme';
 import { Box, Typography } from '@mui/material';

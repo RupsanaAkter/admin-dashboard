@@ -2,7 +2,7 @@ import { useTheme } from '@mui/material';
 import React from 'react';
 import { tokens } from '../../theme';
 import { ResponsiveChoropleth } from '@nivo/geo';
-import { mockGeographyData as data } from "../../data/Mockdata";
+import { mockGeographyData as data } from "../../data/TitanicData";
 import {geoFeatures} from '../../data/Mockgeofeature'
 const GeographyChart = ({ isDashboard = false }) => {
     const theme = useTheme();

@@ -1,6 +1,6 @@
 import React from 'react';
 import { DataGrid } from "@mui/x-data-grid";
-import {mockDataTeam} from '../../data/Mockdata'
+import {mockDataTeam} from '../../data/TitanicData'
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";

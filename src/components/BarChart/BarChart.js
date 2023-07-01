@@ -1,6 +1,6 @@
 import React from 'react';
 import { ResponsiveBar } from "@nivo/bar";
-import { mockBarData as data } from "../../data/Mockdata";
+import { mockBarData as data } from "../../data/TitanicData";
 import { useTheme } from '@mui/material';
 import { tokens } from '../../theme';
 const BarChart = ({ isDashboard = false }) => {

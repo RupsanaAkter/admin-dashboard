@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { mockPieData as data } from "../../data/Mockdata";
+import { mockPieData as data } from "../../data/TitanicData";
 import { useTheme } from '@emotion/react';
 import { tokens } from '../../theme';
 import { ResponsivePie } from '@nivo/pie';
